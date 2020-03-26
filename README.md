@@ -3,7 +3,7 @@
 
 Install Hue with Ambari using this management pack created by DFHeinz.  The original Ambari 2.x Hue Service started
 by [Kyle Joe](https://github.com/EsharEditor) was upgraded for HDP3 and Hue 4.x before starting
-on this Hue Management Pack.  You can see more info on the repo: [HDP3 Hue Service(https://github.com/steven-dfheinz/HDP3-Hue-Service). Also see https://gethue.com for more information, versions, and official documentation.
+on this Hue Management Pack.  You can see more info on the repo: [HDP3 Hue Service](https://github.com/steven-dfheinz/HDP3-Hue-Service). Also see https://gethue.com for more information, versions, and official documentation.
 
 <h2>Version Key</h2>
 
