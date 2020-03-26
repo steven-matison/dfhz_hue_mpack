@@ -7,7 +7,7 @@ on this Hue Management Pack.  You can see more info on the repo: [HDP3 Hue Servi
 
 <h2>Version Key</h2>
 
-&nbsp;&nbsp;hue_mpack-4.6.0-0.1.tar.gz - Hue 4.x HDP 3.x
+&nbsp;&nbsp;hue_mpack-4.6.0-0.1.tar.gz - Hue 4.6.0 HDP 3.x
 
 
 
