@@ -3,7 +3,7 @@
 
 Install Hue with Ambari using this management pack created by DFHeinz.  The original Ambari 2.x Hue Service started
 by [Kyle Joe](https://github.com/EsharEditor) was upgraded for HDP3 and Hue 4.x before starting
-on this Hue Management Pack.  You can see more info on the repo: [HDP3 Hue Service](https://github.com/steven-dfheinz/HDP3-Hue-Service). Also see https://gethue.com for more information, versions, and official documentation.
+on this Hue Management Pack.  You can see more info on the repo: [HDP3 Hue Service](https://github.com/steven-dfheinz/HDP3-Hue-Service). Also see https://gethue.com for more information, versions, and official Hue documentation.
 
 <h2>Version Key</h2>
 
@@ -28,6 +28,6 @@ There is a current bug in User Group Management for HDP 3.x.  The work around is
 
 #### Coming Soon
 - Create a Stack Structure
-- Bring in Hue 3.11.0 Versions
-- Bring in HDP 2.x Versions
-- Revisions & Improvements to HDP 3.x Functionality
+- Bring in Hue 3.11.0 Versions - [HDP3-Hue-Service](https://github.com/steven-dfheinz/HDP3-Hue-Service)
+- Bring in HDP 2.x Versions - [ambari-hue-service](https://github.com/EsharEditor/ambari-hue-service)
+- Revisions & Improvements to HDP 3.x Functionality - [HDP3-Hue-Service](https://github.com/steven-dfheinz/HDP3-Hue-Service)
