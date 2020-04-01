@@ -91,9 +91,6 @@
 	      <package><name>cyrus-sasl-gssapi</name></package>
 	      <package><name>libffi-devel</name></package>
 	      <package><name>ant</name></package>
-	      <package><name>cyrus-sasl-devel</name></package>
-	      <package><name>cyrus-sasl-gssapi</name></package>
-	      <package><name>cyrus-sasl-plain</name></package>
 	      <package><name>gcc</name></package>
 	      <package><name>gcc-c++</name></package>
 	      <package><name>libffi-devel</name></package>
