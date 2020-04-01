@@ -12,8 +12,9 @@ by [Kyle Joe](https://github.com/EsharEditor) was upgraded for HDP3 and Hue 4.x 
 
 #### Usage Notes
 - Make sure you get the correct /raw/ link if using the github links to download (see sample below).
-- Be sure to restart ambari after all M-Pack changes.
+- Be sure to restart ambari after all Management Pack changes.
 - Your nodes need to be able to install all [dependencies](https://docs.gethue.com/administrator/installation/dependencies/). Epel Repository is helpful here.
+- install time will be lengthy due to compile time for "make install" in the hue directory
 
 #### Management Pack Installaion
 - Example  Install & Remove commands are:
