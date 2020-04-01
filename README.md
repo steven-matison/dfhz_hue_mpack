@@ -5,15 +5,15 @@ Install Hue with Ambari using this management pack created by DFHz.  The origina
 by [Kyle Joe](https://github.com/EsharEditor) was upgraded for HDP3 and Hue 4.x by DFHz before starting on this Hue Management Pack.  You can see more info on the HDP3 repo: [HDP3 Hue Service](https://github.com/steven-dfheinz/HDP3-Hue-Service). Also see https://gethue.com for more information, versions, and official Hue documentation.
 
 #### Version Key
-- &nbsp;&nbsp;hue_mpack-3.11.0-0.0.tar.gz - Hue 3.11.0 HDP 2.x
-- &nbsp;&nbsp;hue_mpack-3.11.0-0.1.tar.gz - Hue 3.11.0 HDP 3.x (coming soon)
-- &nbsp;&nbsp;hue_mpack-4.6.0-0.0.tar.gz - Hue 4.6.0 HDP 2.x (coming soon)
-- &nbsp;&nbsp;hue_mpack-4.6.0-0.1.tar.gz - Hue 4.6.0 HDP 3.x
+- hue_mpack-3.11.0-0.0.tar.gz - Hue 3.11.0 HDP 2.x
+- hue_mpack-3.11.0-0.1.tar.gz - Hue 3.11.0 HDP 3.x (coming soon)
+- hue_mpack-4.6.0-0.0.tar.gz - Hue 4.6.0 HDP 2.x (coming soon)
+- hue_mpack-4.6.0-0.1.tar.gz - Hue 4.6.0 HDP 3.x
 
 #### Usage Notes
 - Make sure you get the correct /raw/ link if using the github links to download (see sample below).
 - Be sure to restart ambari after all M-Pack changes.
-- Your nodes need to be able to install all dependencies. Epel Repository is helpful here.
+- Your nodes need to be able to install all [dependencies](https://docs.gethue.com/administrator/installation/dependencies/). Epel Repository is helpful here.
 
 #### Management Pack Installaion
 - Example  Install & Remove commands are:
