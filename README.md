@@ -6,8 +6,6 @@ by [Kyle Joe](https://github.com/EsharEditor) was upgraded for HDP3 and Hue 4.x 
 
 #### Version Key
 
-- hue_mpack-4.6.0-0.1.tar.gz - Hue 4.6.0 HDP 3.x (operational)
-- hue_mpack-4.6.0-0.0.tar.gz - Hue 4.6.0 HDP 2.x (coming soon)
 - hue_mpack-3.11.0-0.0.tar.gz - Hue 3.11.0 HDP 2.x (work in progress now - DO NOT USE)
 - hue_mpack-3.11.0-0.1.tar.gz - Hue 3.11.0 HDP 3.x (coming soon)
 
@@ -20,7 +18,7 @@ by [Kyle Joe](https://github.com/EsharEditor) was upgraded for HDP3 and Hue 4.x 
 #### Management Pack Installaion
 - Example  Install & Remove commands are:
 
-<pre>ambari-server install-mpack --mpack=https://github.com/steven-dfheinz/dfhz_hue_mpack/raw/master/hue_mpack-4.6.0-0.1.tar.gz --verbose
+<pre>ambari-server install-mpack --mpack=https://github.com/steven-dfheinz/dfhz_hue_mpack/raw/Hue.3.11.0/hue_mpack-3.11.0-0.0.tar.gz --verbose
 ambari-server restart
 ambari-server uninstall-mpack --mpack-name=hue-ambari.mpack
 ambari-server restart</pre>
@@ -34,9 +32,3 @@ ambari-server restart</pre>
 - There is a current bug in User Group Management for HDP 3.x.  The work around is the following python command before installing Hue
 <pre>python /var/lib/ambari-server/resources/scripts/configs.py -u admin -p admin -n [CLUSTER_NAME] -l [CLUSTER_FQDN] -t 8080 -a set -c cluster-env -k  ignore_groupsusers_create -v true</pre>
 **** be sure to get the correct [CLUSTER_NAME] and [CLUSTER_FQDN] for command above
-
-#### Coming Soon
-- Create a Stack Structure
-- Hue 3.11.0 Versions - [HDP3-Hue-Service](https://github.com/steven-dfheinz/HDP3-Hue-Service)
-- HDP 2.x Versions - [HDP2-Hue-Service](https://github.com/steven-dfheinz/HDP2-Hue-Service)
-- Revisions & Improvements to HDP 3.x Functionality - [HDP3-Hue-Service](https://github.com/steven-dfheinz/HDP3-Hue-Service)
