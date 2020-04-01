@@ -5,7 +5,7 @@ Install Hue with Ambari using this management pack created by DFHz.  The origina
 by [Kyle Joe](https://github.com/EsharEditor) was upgraded for HDP3 and Hue 4.x by DFHz before starting on this Hue Management Pack.  You can see more info on the HDP3 repo: [HDP3 Hue Service](https://github.com/steven-dfheinz/HDP3-Hue-Service). Also see https://gethue.com for more information, versions, and official Hue documentation.
 
 #### Version Key
-- hue_mpack-3.11.0-0.0.tar.gz - Hue 3.11.0 HDP 2.x
+- hue_mpack-3.11.0-0.0.tar.gz - Hue 3.11.0 HDP 2.x (in progress now - DO NOT USE)
 - hue_mpack-3.11.0-0.1.tar.gz - Hue 3.11.0 HDP 3.x (coming soon)
 - hue_mpack-4.6.0-0.0.tar.gz - Hue 4.6.0 HDP 2.x (coming soon)
 - hue_mpack-4.6.0-0.1.tar.gz - Hue 4.6.0 HDP 3.x
@@ -26,7 +26,7 @@ ambari-server restart</pre>
 
 
 #### HDP 2.x Usage Notes
-
+- Testing in Progress Now
 
 #### HDP 3.x Usage Notes
 
@@ -37,5 +37,5 @@ ambari-server restart</pre>
 #### Coming Soon
 - Create a Stack Structure
 - Hue 3.11.0 Versions - [HDP3-Hue-Service](https://github.com/steven-dfheinz/HDP3-Hue-Service)
-- HDP 2.x Versions - [ambari-hue-service](https://github.com/EsharEditor/ambari-hue-service)
+- HDP 2.x Versions - [HDP2-Hue-Service](https://github.com/steven-dfheinz/HDP2-Hue-Service)
 - Revisions & Improvements to HDP 3.x Functionality - [HDP3-Hue-Service](https://github.com/steven-dfheinz/HDP3-Hue-Service)
