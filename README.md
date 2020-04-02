@@ -26,7 +26,7 @@ ambari-server restart</pre>
 
 
 #### HDP 2.x Usage Notes
-- Testing in Progress Now No Know Issues
+- No Known Issues
 
 #### HDP 3.x Usage Notes
 
