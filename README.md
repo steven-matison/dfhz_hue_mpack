@@ -36,6 +36,4 @@ ambari-server restart</pre>
 
 #### Coming Soon
 - Create a Stack Structure
-- Hue 3.11.0 Versions - [HDP3-Hue-Service](https://github.com/steven-dfheinz/HDP3-Hue-Service)
-- HDP 2.x Versions - [HDP2-Hue-Service](https://github.com/steven-dfheinz/HDP2-Hue-Service)
 - Revisions & Improvements to HDP 3.x Functionality - [HDP3-Hue-Service](https://github.com/steven-dfheinz/HDP3-Hue-Service)
