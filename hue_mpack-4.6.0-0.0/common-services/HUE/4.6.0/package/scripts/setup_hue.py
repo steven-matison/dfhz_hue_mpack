@@ -43,8 +43,8 @@ def setup_hue():
     owner = params.hue_user
   )
   Logger.info(format("Creating {hue_conf_dir}/pseudo-distributed.ini config file"))
-  File(format("{hue_conf_dir}/pseudo-distributed.ini"), 
-    content = InlineTemplate(params.hue_pseudodistributed_content), 
+  File(format("{hue_conf_dir}/hue.ini"), 
+    content = InlineTemplate(params.hue_ini_content), 
     owner = params.hue_user
   )
   Logger.info(format("Run the script file to add configurations"))
