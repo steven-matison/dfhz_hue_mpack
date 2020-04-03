@@ -13,8 +13,9 @@ by [Kyle Joe](https://github.com/EsharEditor) was upgraded for HDP3 and Hue 4.x 
 #### Usage Notes
 - Make sure you get the correct /raw/ link if using the github links to download (see sample below).
 - Be sure to restart ambari after all Management Pack changes.
-- Your nodes need to be able to install all [dependencies](https://docs.gethue.com/administrator/installation/dependencies/). Epel Repository is helpful here.
-- install time will be lengthy due to compile time for "make install" in the hue directory
+- Your nodes need to be able to install all [Hue Dependencies](https://docs.gethue.com/administrator/installation/dependencies/). Epel Repository is helpful here.
+- Install time will be lengthy due to compile time for "make install" in the hue directory
+- Minimal install requires HDFS, Yarn, & Zookeeper
 
 #### Management Pack Installaion
 - Example  Install & Remove commands are:
@@ -24,6 +25,12 @@ ambari-server restart
 ambari-server uninstall-mpack --mpack-name=hue-ambari.mpack
 ambari-server restart</pre>
 
+#### Known Issues
+- Additional configuration required post install to configure hue for hive,hbase,hdfs,rdbms, etc.
+- Limited testing on multi node cluster
+- Not tested SSL or Kerberos
+- There could still be conflicts with config params specific to your cluster configuration
+- Major Differences between Hue 3 and Hue 4
 
 #### HDP 2.x Usage Notes
 - No Known Issues
