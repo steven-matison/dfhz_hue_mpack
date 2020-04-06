@@ -1,0 +1,55 @@
+{
+  "type": "full-release",
+  "name": "hue-ambari.mpack",
+  "version": "3.11.0",
+  "description": "Ambari Management Pack for Hue by DFHZ",
+  "prerequisites": {
+    "min-ambari-version": "2.7.0",
+    "min-stack-versions": [
+      {
+        "stack_name": "HDP",
+        "stack_version": "3.0.0"
+      }
+    ]
+  },
+  "artifacts": [
+    {
+      "name": "HUE-common-services",
+      "type" : "service-definitions",
+      "source_dir" : "common-services"
+    },
+    {
+      "name" : "HUE-addon-services",
+      "type" : "stack-addon-service-definitions",
+      "source_dir": "addon-services",
+      "service_versions_map": [
+        {
+          "service_name" : "HUE",
+          "service_version" : "3.11.0",
+          "applicable_stacks" : [
+            {
+              "stack_name" : "HDP",
+              "stack_version" : "3.0"
+            },
+            {
+              "stack_name" : "HDP",
+              "stack_version" : "3.1"
+            },
+            {
+              "stack_name" : "HDP",
+              "stack_version" : "3.2"
+            },
+            {
+              "stack_name" : "HDP",
+              "stack_version" : "3.3"
+            },
+            {
+              "stack_name" : "HDP",
+              "stack_version" : "3.4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
